@@ -94,7 +94,7 @@ def _gopt(dt=False):
     else: opt = normalopt[:14] + dtopt[:4]; np.random.shuffle(opt)
     
     ### Add free space
-    opt.insert(2, 'FREE SPACE \n everthing is fine')
+    opt.insert(2, 'FREE SPACE \n everything is fine')
 
     return opt
 
